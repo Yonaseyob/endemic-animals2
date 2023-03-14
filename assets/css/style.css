@@ -1,0 +1,82 @@
+/* Setts the background color and font family */
+body {
+    background-color: rgb(243, 235, 235);
+    font-family: "Raleway", sans-serif;
+    color: #445361;
+    text-align: center;
+}
+/* Diffine the text alignment and font size for the heading section */
+.heading {
+    text-align: center;
+    font-size: 1.5rem;
+}
+/* Setts text alignment, font size and text size for the welcome section */
+.welcom-text {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.welcome-area {
+    text-align: center;
+    font-size: 1rem;
+    width: 70%;
+    height: 8vh;
+    max-height: 450px;
+    max-width: 830px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+
+}
+/* diffined the over all structur and size of the quiz box */
+#quiz-box {
+    box-sizing: border-box;
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 50%;
+    height: 40vh;
+    max-height: 450px;
+    max-width: 830px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+    text-align: left;
+    background-color: aliceblue;
+    
+}
+/* diffined the over all structur for the score area*/
+.score-area {
+    font-size: 1rem;
+    box-sizing: border-box;
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 50%;
+    height: 15vh;
+    max-height: 450px;
+    max-width: 830px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+    text-align: left;
+    background-color: rgb(166, 192, 225);
+    
+}
+/* Hide the quiz box antil the user click the start button */
+ .hide {
+    display: none;
+ }
+
+/* setts the window size for diffrent screen size*/
+@media (max-width: 300px) {
+    .welcome-area {
+        padding: 10% 0;
+        width: 100%;
+    }
+    #quiz-box {
+        padding: 10% 0;
+        width: 100%;
+    }
+    }
+
+
+
