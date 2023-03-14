@@ -49,13 +49,13 @@ const startButton = document.getElementById('start-btn');
 const questionContainerElement = document.getElementById("quiz-box");
 
 
- startButton.addEventListener('click', startGame)
+ startButton.addEventListener('click', startGame);
 // quiz start:
  function startGame() {
- console.log('Started')
- startButton.classList.add('hide')
- questionContainerElement.classList.remove('hide')
- loadQuiz()
+ console.log('Started');
+ startButton.classList.add('hide');
+ questionContainerElement.classList.remove('hide');
+ loadQuiz();
  }
 
 // username input value:
